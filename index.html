@@ -23,14 +23,14 @@
                 <a href="/"><h1 class="nav-item">Mary Quint</h1></a>
                 <ul class="nav nav-list justify-content-end">
     
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="/">About</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -39,39 +39,39 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="blue-text display">Fluid jumbotron</h1>
-            <p class=" blue-text lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="blue-text display text-center">Nice to meet you!</h1>
+            <p class=" blue-text lead text-center">I'm a designer and web developer with a passion for using design and technology to translate ideas into clear and engaging deliverables. With a background in graphic design for nonprofits, I approach projects with big-picture goals and user interaction in mind.</p>
         </div>
     </div>
     <div class="container">
         <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h1 class="align-middle text-center big-icon"><i class="align-middle fas fa-pencil-alt"></i></h1>
                 <!-- <h2 class="text-center">Design</h2> -->
                 <h3 class="text-center red-text">Design</h3>
-                <p class="text-center">Organized, easy to use, and visually compelling. Eye for color, typography, and an ability to translate a project's personality into visuals.</p>
+                <p class="text-center">I aim to make everything I design organized, easy for viewers to interact with, and visually compelling. I have an eye for color and typography, and an ability to translate a project's personality into visuals.</p>
                 <h5 class="text-center">Tools</h5>
                 <p class="text-center">Illustrator, Photoshop, Indesign, and good ol' pencil and paper.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h1 class="align-middle text-center big-icon"><span style="color:#0a6782"><i class="align-middle fas fa-code"></i></span></h1>
                 <!-- <h2 class="text-center">Design</h2> -->
                 <h3 class="text-center blue-text">Development</h3>
-                <p class="text-center">Sentence</p>
+                <p class="text-center">I give a project all the functionality it needs, with code that's easy to read and maintain. I love when I can find a simpler, more elegant way to solve a problem.</p>
                 <h5 class="text-center">Tools</h5>
                 <p class="text-center">Bootstrap, Materialize, CSS, Responsive Design, Javascript, jQuery, MySQL, Sequelize, Node, Express, MongoDB.</p>
             </div>
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
                 <h1 class="align-middle text-center big-icon"><i class="align-middle fas fa-comment-alt"></i></h1>
                 <h3 class="text-center red-text">Message</h3>
-                <p class="text-center">Writing, research, communication, and brand savvy.</p>
-            </div>
+                <p class="text-center">Writing, editing, and communication that fits a brand.</p>
+            </div> -->
         </div>
     </div>
     <br>
     <div class="container-fluid">
-        <h1 class="display-4 text-center red-text">Projects</h1>
+        <h1 class="display-4 text-center red-text" id="projects">Projects</h1>
         <br>
         <div class="row">
             <div class="col-sm-6 col-md-4">
@@ -82,7 +82,7 @@
             </div>
             <div class="col-sm-6 col-md-8 full red">
                 <h2>Recipe Catalog</h2>
-                <p>A recipe website where users can post, share, and save favorite recipes.</p>
+                <p>A recipe website where users can post, share, and save favorite recipes. Built using Node, Express, Sequelize, and Handlebars.</p>
                 <p>View it deployed <a href="https://frozen-atoll-29378.herokuapp.com/">here</a> or look at the code on <a href="https://github.com/lwerner27/Recipe-Catalog">Github.</a></p>
             </div>
         </div>
@@ -131,20 +131,19 @@
 
     </div>
 
-    <footer class="red page-footer font-small unique-color-dark mt-4">
+    <footer class="red page-footer font-small unique-color-dark mt-4" id="contact">
         <div class="container">
 
             <div class="row">
                 <div class="col-sm-3 col-md-4"></div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="row">
-                            <div class="col-sm-3"><h1 class="text-center"><i class="fab fa-linkedin"></i></h1></div>
-                            <div class="col-sm-3"><h1 class="text-center"><i class="fab fa-instagram"></i></h1></div>
-                            <div class="col-sm-3"><h1 class="text-center"><i class="fab fa-github-square"></i></h1></div>
-                            <div class="col-sm-3"><h1 class="text-center"><i class="far fa-envelope"></i></h1></div>
+                            <div class="col-xs-3 col-sm-4"><a href="https://www.linkedin.com/in/mary-quint-8b946590/"><h1 class="text-center footer-icon"><i class="fab fa-linkedin"></i></h1></a></div>
+                            <div class="col-xs-3 col-sm-4"><a href="https://github.com/mquint0603"><h1 class="text-center footer-icon"><i class="fab fa-github-square"></i></h1></a></div>
+                            <div class="col-xs-3 col-sm-4"><a href="mailto:mary.k.quint@gmail.com?Subject=Hello" target="_top"><h1 class="text-center footer-icon"><i class="far fa-envelope"></i></h1></a></div>
                     </div>
                 </div>
-                <div class="col-sm-3 col-md-4"></div>
+                <div class="col-xs-1 col-sm-3 col-md-4"></div>
                 
             </div>
         </div>

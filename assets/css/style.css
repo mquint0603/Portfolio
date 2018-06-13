@@ -89,6 +89,13 @@
     padding-bottom: 8%;
 }
 
+/* .footer-icon {
+    font-size: 3em;
+} */
+.lead {
+    font-size: 1.5rem;
+}
+
 .proj-image {
     width: 100%;
     height: auto;
@@ -97,4 +104,8 @@
 footer {
     /* height: 250px; */
     padding: 40px;
+}
+
+footer a {
+    color: white;
 }
